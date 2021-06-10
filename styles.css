@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  padding: 15px;
+  background-color: #f8f5f1;
+  position: fixed;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #125d98;
+  font-weight: 600;
+}
+.caja {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.texto {
+  width: 40%;
+  padding: 20px;
+
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.color {
+  color: blue;
+  font-size: 30px;
+}
+.btn {
+  width: 15%;
+  padding: 12px;
+  margin-top: 20px;
+}
